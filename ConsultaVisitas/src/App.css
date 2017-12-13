@@ -1,0 +1,210 @@
+@import '../node_modules/react-datepicker/dist/react-datepicker.css';
+@import './styles/base/bootstrap.min.css';
+
+
+/*
+.App {
+  text-align: center;
+  width: '100%'
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  //height: 150px;
+  height: 80; 
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+*/
+
+.App {
+  text-align: center;
+  /*background-color:*/ 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  /*height: 150px;*/
+   height: 75; 
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+
+
+
+
+.l-center{
+  /*display: block;*/
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+
+.form-group {
+  position: relative;
+}
+
+.pendingOperation--search-form{
+  /*margin-top: 10px;*/
+  /*width: 101%;*/
+  height: 50px;
+  padding-top: 25px;
+  display: inline-flex
+}
+
+.margin{
+  background-color: green;
+}
+
+
+.pendingOperation--form--search-input{
+  padding: 2px;
+  height: 34px;
+  width: 98.8%;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: none;
+  border: 1px solid rgb(0, 73, 136);
+  margin: 10px;
+  margin-left:0px;
+  margin-right: 50px;
+  padding: 5px;
+}
+
+.pendingOperation--form--search-input2{
+  padding: 2px;
+  height: 34px;
+  /*width: 98.8%;*/
+  border-radius: 3px;
+  background-color: #3E2C42;
+  box-shadow: none;
+  border: 1px solid rgb(0, 73, 136);
+  margin: 10px;
+  margin-left:0px;
+  /*margin-right: 50px;*/
+  padding: 5px;
+}
+
+.pendingOperation--button-confirm{
+  /*width: 99%;*/
+  margin-top: 13px;
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: #00437a;
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+}
+
+
+
+/*SearchTable*/
+.tableContainer{
+  padding-top: 20px;
+  background-color: #E6E6E8;
+}
+
+.searchTable{
+  border-spacing: 1px;
+  border-collapse: separate;
+  font-size: 1.2em;
+  display: table;
+  width: 100%;
+}
+
+.searchTable--header{
+  color: white;
+  background-color: #00437a;
+}
+
+.searchTable--header>th{
+  padding: 10px 35px;
+  text-transform: uppercase;
+  font-size: 8pt;
+}
+
+.searchTable--header>tr>th{
+  padding: 5px 25px;
+}
+
+
+.searchTable--row>td{
+  padding: 10px 15px;
+  /*text-transform: uppercase;*/
+  color: #444;
+  font-size: 8pt;
+  white-space: nowrap;
+}
+
+tr.searchTable--row:nth-child(odd) {
+  background-color: #fff;
+}
+
+tr.searchTable--row:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.searchTable--row:hover  {
+  background-color: #f2f9ff !important;
+}
+
+
+
+/*
+div.react-datepicker-wrapper{
+  display: inline; 
+}
+*/
+
+/*
+.react-datepicker-wrapper>.react-datepicker__input-container>.react-datepicker-ignore-onclickoutside {
+  width: 120px !important; 
+  border-radius: 4px !important
+}
+*/
+
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+
+
+

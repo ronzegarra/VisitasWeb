@@ -1,0 +1,21 @@
+.accountBoxList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 13px;
+  transition: opacity 1s;
+  width: 100%;
+}
+
+@media (max-width: 525px){
+  .accountBoxList {
+    transition: max-height 1s;
+    overflow-y: hidden;
+    overflow: visible;
+  }
+}
+
+td>.accountBoxList>.accountBoxDetail{
+  margin-left: 0px;
+}
+

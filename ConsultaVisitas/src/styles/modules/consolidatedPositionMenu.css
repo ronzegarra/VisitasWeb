@@ -1,0 +1,76 @@
+.consolidatedMenu--wrapper{
+  position: absolute;
+  width: 240px;
+  top: 40px;
+  right: -40px;
+  z-index: 1;
+}
+
+.consolidatedPosition--menu{
+  background-color: white;
+  border-top: 1px solid #e6e6e6;
+  box-shadow:  0 3px 8px rgba(0, 0, 0, .3);
+}
+
+.consolidatedPosition--menu--item--wrapper{
+  cursor: pointer;
+  cursor: hand;
+  padding: 0 15px;
+  color: #686767;
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.consolidatedPosition--menu--item--wrapper:hover{
+  background-color: rgb(0, 73, 136);
+  color: white;
+  position: relative;
+}
+
+.consolidatedPosition--menu--item--wrapper:first-of-type{
+  margin-top: 10px;
+}
+
+.consolidatedPosition--menu--item{
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 11px;
+  padding-top: 14px;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.consolidatedPosition--menu--item:hover{
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.consolidatedPosition--menu--arrow{
+  position: relative;
+  top: -10px;
+  left: 165px;
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid #ddd ;
+  border-left: 1px solid #ddd;
+  transform: rotate(45deg);
+  margin-bottom: -30px;
+  background-color: white;
+}
+
+.consolidatedPosition--menu--icon{
+  width: 20px;
+  margin-right: 10px;
+}
+
+.consolidatedPosition--menu--faIcon{
+  width: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  float: left;
+}
+
+.consolidatedPosition--menu--faIcon + span {
+  position: relative;
+}

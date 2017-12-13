@@ -1,0 +1,309 @@
+.button{
+  width: 100%;
+  background-color: #b8083e;
+  font-style: normal;
+  font-size: 1.077em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding: 7px;
+}
+
+.transference-button{
+  z-index: 57;
+  height: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #444;
+  background-color: #e3e7e7 ;
+  border-radius: 25px;
+  font-style: normal;
+  font-size: 1.1em;
+  font-weight: 600;
+  transform: none;
+  transition: none;
+  filter: none;
+  margin-right: 25px;
+}
+
+.disabled{
+  border: #bdbdbd;
+  background-color:#bdbdbd;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.disabled:hover{
+  background-color:#bdbdbd !important;
+}
+
+.transference-button:hover{
+  background-color: #004988;
+  color: #fff;
+}
+
+.transference-button:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 359px) {
+  .transference-button{
+    font-size: 0.7em;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .transference-button{
+    font-size: 0.8em;
+  }
+}
+
+.transference-button-submit{
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: rgb(0, 73, 136);
+  font-style: normal;
+  font-size: 1.231em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+.transference-button-submit-disable{
+  height: 41px;
+  border: #bdbdbd;
+  background-color: #bdbdbd;
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  width: 130px;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+@media (max-width: 525px) {
+  .transference-button-submit{
+    margin-top: 25px;
+  }
+}
+
+.transference-button-back{
+  height: 41px;
+  border: #a80041 solid;
+  background-color: #a80041;
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+@media (max-width: 525px) {
+  .transference-button-back{
+    margin-top: 25px;
+  }
+}
+
+.transference-button-submit:hover{
+  background-color: #a80041;
+  border-color: #a80041;
+}
+
+.transference-button-submit:hover{
+  background-color: #a80041;
+  border-color: #a80041;
+}
+.beneficiary-return-button-submit{
+  margin-top: 25px;
+  margin-left: 5px;
+  height: 41px;
+  border: #a80041;
+  background-color: #a80041;
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+@media (max-width: 525px){
+  .beneficiary-return-button-submit{
+    font-size: 1em;
+    width: calc(33.33% - 6px);
+    display: block;
+    float: left;
+    margin: 3px;
+    padding: 1px 6px;
+  }
+}
+
+@media (max-width: 1049px){
+  .beneficiary-button-submit{
+    float: right;
+  }
+}
+
+.beneficiary-button-submit{
+  margin-top: 25px;
+  margin-right: 5px;
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: rgb(0, 73, 136);
+  font-style: normal;
+  font-size: 1.231em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+.beneficiary-button-add{
+  margin-top: 25px;
+  margin-right: 11px;
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: rgb(0, 73, 136);
+  font-style: normal;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+@media (max-width: 525px){
+  .beneficiary-button-submit{
+    font-size: 1em;
+    width: calc(33.33% - 6px);
+    display: block;
+    float: left;
+    margin: 3px;
+    padding: 1px 6px;
+  }
+}
+
+.beneficiary-button-pdf{
+  margin-top: 25px;
+  margin-left: 5px;
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: rgb(0, 73, 136);
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 250px;
+}
+
+.beneficiary-button-back{
+  margin-top: 25px;
+  height: 41px;
+  border: #a80041 solid;
+  background-color: #a80041;
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+.beneficiary-button-submit:hover{
+  background-color: #a80041;
+  border-color: #a80041;
+}
+
+.header--buttons{
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 525px) {
+  .header--buttons{
+    margin-top: 28px;
+  }
+}
+
+.beneficiarios--buttons{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  margin-right: 20px;
+}
+
+@media (max-width: 525px) {
+  .beneficiarios--buttons{
+    margin-top: 28px;
+  }
+}
+
+.security-button-submit{
+  margin-top: 25px;
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: rgb(0, 73, 136);
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+.pdfMobile--button{
+  margin-top: 20px;
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: rgb(0, 73, 136);
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 250px;
+}
+
+.security-button-submit:hover{
+  background-color: #a80041;
+  border-color: #a80041;
+}
+
+.alias-button-submit{
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: rgb(0, 73, 136);
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+.alias-button-omit{
+  height: 41px;
+  border: #a80041 solid;
+  background-color: #a80041;
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}

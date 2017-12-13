@@ -1,0 +1,208 @@
+
+.accountDetailTable {
+  width: 100%;
+
+}
+.accountDetailTable > thead > tr {
+}
+
+.accountDetailTable > tbody > tr {
+  border: 1px solid rgb(221, 221, 221);
+  background-color: rgb(255, 255, 255);
+}
+
+.accountDetailTable > thead > tr > th {
+  padding: 5px;
+  color: white;
+}
+
+.accountDetailTable > tbody > tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.accountDetailTable > tbody > tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+
+.accountDetailTable > tbody >tr > td , .accountDetailTable > thead > tr > th {
+  padding: 10px;
+  border-left: 1px solid rgb(221, 221, 221);
+}
+
+.accountDetailTable td.center{
+  text-align: center;
+}
+
+.accountDetailTable th {
+  background-color: #004578;
+}
+
+.accountDetailTable td:nth-child(2) {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.accountDetailTable th:nth-child(1){
+  border-top-left-radius: 10px;
+  border-top:0px;
+  border-left:0px;
+}
+
+.accountDetailTable th:nth-child(5){
+  border-top-right-radius: 10px;
+  border-top:0px;
+  border-right:0px;
+}
+
+.accountDetailTable td:nth-child(1), .accountDetailTable td:nth-child(2){
+  text-align:left;
+}
+
+.accountDetailTable td:nth-child(3){
+  text-align:right;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.accountDetailTable td:nth-child(4), .accountDetailTable td:nth-child(5){
+  text-align:right;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.accountDetailTable > tbody > tr:hover {
+  background-color: #f2f9ff ;
+}
+
+.accountTypeCredit{
+  color: green;
+  font-weight: 700;
+}
+
+.accountTypeDebit{
+  color: #be0f22;
+  font-weight: 700;
+}
+
+.accountDetailTableDPF {
+  width: 100%;
+  font-size: 15px;
+  border: 0;
+}
+
+.accountDetailTableDPF th, .accountDetailTableDPF td {
+  padding: 5px;
+  border: 0;
+}
+
+.accountDetailTableDPF tr:nth-child(1){
+  text-align:left;
+  background-color: #dee9ef;
+}
+
+.accountDetailTableDPF tr:nth-child(1) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTableDPF tr:nth-child(2){ text-align:left;
+  background-color: white
+}
+.accountDetailTableDPF tr:nth-child(2) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTableDPF tr:nth-child(3) {
+  text-align:left;
+  background-color: #dee9ef
+}
+.accountDetailTableDPF tr:nth-child(3) td:nth-child(2){
+  text-align:right;
+  }
+.accountDetailTableDPF tr:nth-child(4){
+  text-align:left;
+  background-color: white
+}
+.accountDetailTableDPF tr:nth-child(4) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTableDPF tr:nth-child(5){
+  text-align:left;
+  background-color: #dee9ef
+}
+.accountDetailTableDPF tr:nth-child(5) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTableDPF tr:nth-child(6){
+  text-align:left;
+  background-color: white
+}
+.accountDetailTableDPF tr:nth-child(6) td:nth-child(2){
+  text-align:right;
+}
+
+.accountDetailTablePrestamo {
+  width: 100%;
+  font-size: 15px;
+  border: 0;
+}
+
+.accountDetailTablePrestamo th, .accountDetailTablePrestamo td {
+  padding: 5px;
+  border: 0;
+}
+
+.accountDetailTablePrestamo tr:nth-child(1){
+  text-align:left;
+  background-color: #dee9ef;
+}
+
+.accountDetailTablePrestamo tr:nth-child(1) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTablePrestamo tr:nth-child(2){ text-align:left;
+  background-color: white
+}
+.accountDetailTablePrestamo tr:nth-child(2) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTablePrestamo tr:nth-child(3) {
+  text-align:left;
+  background-color: #dee9ef;
+}
+.accountDetailTablePrestamo tr:nth-child(3) td:nth-child(2){
+  text-align:right;
+  }
+.accountDetailTablePrestamo tr:nth-child(4){
+  text-align:left;
+  background-color: white
+}
+.accountDetailTablePrestamo tr:nth-child(4) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTablePrestamo tr:nth-child(5){
+  text-align:left;
+  background-color: #dee9ef;
+}
+.accountDetailTablePrestamo tr:nth-child(5) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTablePrestamo tr:nth-child(6){
+  text-align:left;
+  background-color: white
+}
+.accountDetailTablePrestamo tr:nth-child(6) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTablePrestamo tr:nth-child(7){
+  text-align:left;
+  background-color: #dee9ef;
+}
+.accountDetailTablePrestamo tr:nth-child(7) td:nth-child(2){
+  text-align:right;
+}
+.accountDetailTablePrestamo tr:nth-child(8){
+  text-align:left;
+  background-color: white
+}
+.accountDetailTablePrestamo tr:nth-child(8) td:nth-child(2){
+  text-align:right;
+}

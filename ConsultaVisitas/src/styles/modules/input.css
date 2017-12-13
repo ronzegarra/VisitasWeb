@@ -1,0 +1,10 @@
+.input-borderBottom{
+  box-shadow: none;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  color: black;
+  height: 34px;
+  background-color: rgba(0,0,0,0);
+}

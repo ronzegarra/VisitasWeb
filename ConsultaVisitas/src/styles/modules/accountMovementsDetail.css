@@ -1,0 +1,141 @@
+.accountMovement--title{
+  color: #00437a;
+  font-size: medium;
+  font-weight: 700;
+  text-decoration-style:
+}
+
+.accountMovement--subtitle{
+  color: #00437a;
+  font-size: small;
+  font-weight: 700;
+  text-decoration-style:
+}
+
+.accountMovement--date{
+  padding-right: 25px;
+  margin-top: 60px;
+}
+
+.message--get--detail{
+  padding-bottom: 7px;
+}
+
+.container--search--input{
+  max-width: 833px;
+}
+
+.searchTable--full {
+  border-spacing: 1px;
+  border-collapse: separate;
+  font-size: 1.2em;
+  width: 100%;
+}
+
+.positionAccount--control--container{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 1px;
+  max-width: 833px;
+}
+
+.positionAccountMovementDetail--submit--button{
+  margin-top: 25px;
+  margin-left: 5px;
+  height: 41px;
+  border: #a80041;
+  background-color: #a80041;
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+  transform: none;
+  transition: none;
+  filter: none;
+  width: 130px;
+}
+
+.accountMovement-search-fields {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@media (max-width:525px){
+  .accountMovement--import{
+    padding: initial;
+  }
+
+  .positionAccountMovementDetail--submit--button{
+    font-size: 1em;
+    display: block;
+    float: left;
+    margin: 3px;
+    margin-top: 15px;
+    padding: 1px 6px;
+  }
+  .accountMovement-search-fields > div > .search--control {
+    margin-bottom:  15px;
+    width: 100%;
+  }
+
+  .accountMovement-search-fields > div > .react-datepicker__input-container {
+    display: block;
+  }
+  .accountMovement-search-fields > div > .react-datepicker__input-container > input {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .accountMovement-search-fields{
+    display: block;
+  }
+
+  .accountMovement--date{
+    padding-right: 0;
+  }
+
+  .accountMovement--checkboxContainer{
+    margin: 0 auto;
+  }
+}
+
+.positionAccountMovementDetail--container{
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.accountDetailTableMax{
+  max-width: 835px;
+}
+
+@media (min-width: 1200px){
+  .accountDetailTableMax {
+    max-width: 100%;
+  }
+}
+
+.accountMovement-search-button{
+  width: 100%;
+  height: 30px;
+  background-color: #00437a;
+  font-style: normal;
+  padding: 5px 35px;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+}
+
+.disabled {
+  border: #bdbdbd;
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.accountMovement-search-button:hover{
+  background-color: #a80041;
+  border-color: #a80041;
+}
+
+.search-group >.accountMovement--checkboxContainer{
+  margin-right: 30px;
+}

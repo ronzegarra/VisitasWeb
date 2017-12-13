@@ -1,0 +1,10 @@
+.successBlock{
+  font-size: 1.2em;
+}
+.successBlock>div>p{
+  margin: 0;
+}
+
+.successBlock--header{
+  text-align: center;
+}

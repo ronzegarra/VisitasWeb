@@ -1,0 +1,42 @@
+.resume-accounts{
+  padding-top: 20px;
+  margin-left: 15px;
+}
+
+.content-wrapper{
+  padding-bottom: 150px
+}
+
+@media (max-width: 720px) {
+  .content-wrapper {
+    padding-bottom: 50px
+  }
+}
+
+@media (max-width: 525px){
+  .resume-accounts{
+    margin: 0 5px;
+  }
+}
+
+.languages-box{
+  text-align: center;
+  z-index: 200;
+}
+
+.spain-flag{
+  margin-right: 5px;
+}
+
+.england-flag{
+  margin-left: 5px;
+}
+
+.portraitHoverRow:hover, .portraitHoverRow:hover *{
+  background-color: #00437a;
+  color: white;
+}
+
+.thirdDelta--wrapper{
+  padding-bottom: 80px;
+}

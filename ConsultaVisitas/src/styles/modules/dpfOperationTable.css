@@ -1,0 +1,179 @@
+.dpfOperationTable{
+  border-spacing: 0 2px;
+  border-collapse: separate;
+  font-size: 13px;
+  display: table-row;
+  margin-bottom: 10px;
+}
+
+.dpfOperationTable-container{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.dpfOperationTable--header{
+  color: white;
+  background-color: #00437a;
+}
+
+
+.dpfOperationTable--text--bold{
+  text-align: center;
+  font-weight: bold;
+}
+
+.dpfOperationTable--bold{
+  font-weight: bold;
+}
+
+.dpfOperationTable--text{
+  text-align: center;
+}
+
+.dpfOperationTable--text--subtitle{
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.dpfOperationTable--text--content{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dpfOperationTable--column--account{
+  color: white;
+  background-color: #00437a;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  width: 180px;
+	padding: 0px 10px;
+}
+
+.dpfOperationTable--column--import{
+  width: 180px;
+}
+
+.dpfOperationTable--column--money{
+  width: 240px;
+}
+
+.dpfOperationTable--column--like{
+  width: 200px;
+  padding-right: 30px;
+  text-align: right;
+}
+
+.dpfOperationTable--column--progress{
+  width: 100px;
+}
+
+.dpfOperationTable--column--plus{
+  color: white;
+  background-color: #00437a;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dpfOperationTable--wrapper{
+  display: inline-block;
+}
+
+tr.dpfOperationTable--row {
+  background-color: white;
+}
+
+.dpfOperationTable--button{
+  position: relative;
+  height: 21px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.823em;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-top: -5px;
+}
+
+.dpfOperationTable--footer{
+  margin-top: 7px;
+}
+
+.dpfOperationTable--status{
+  color: #00437a;
+}
+
+.dpfOperationTable--pagination{
+  margin-left: 115px;
+}
+
+.dpfOperationTable--pagination>i{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.dpfOperationTable--start{
+  margin-right: 4px;
+  color: white;
+  border-radius: 25px;
+  background-color: #005889;
+  padding: 4px 6px 4px 4px;
+}
+
+.dpfOperationTable--previous{
+  margin-right: 4px;
+  color: white;
+  border-radius: 25px;
+  background-color: #005889;
+  padding: 4px 4px 4px 6px;
+  transform: scaleX(-1);
+}
+
+.dpfOperationTable--next{
+  margin-right: 4px;
+  color: white;
+  border-radius: 25px;
+  background-color: #005889;
+  padding: 4px 4px 4px 6px;
+}
+
+.dpfOperationTable--end{
+  margin-right: 4px;
+  color: white;
+  border-radius: 25px;
+  background-color: #005889;
+  padding: 4px 4px 4px 6px;
+}
+
+.dpfOperationTable--align--right{
+  text-align: right;
+}
+
+.dpfOperationTable--inline{
+  display: inline;
+}
+
+.tableDate{
+  width: 100%;
+}
+
+.text--align--left{
+  text-align: left;
+}
+.dpfOperationTable--text--oneline{
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media (max-width:880px) {
+  .dpfOperationTable--column--progress {
+    display: none;
+  }
+  .dpfOperationTable--column--hide{
+    display: none;
+  }
+}

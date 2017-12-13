@@ -1,0 +1,29 @@
+.pdf--logo{
+  color: #00437a;
+  height: 30px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.icon--pdf {
+  display: inline-block;
+  max-width: 23px;
+}
+
+.pdf--logo-extend{
+  margin-bottom: 3px;
+  margin-right: 5px;
+  color: #00437a;
+  width: 30px;
+  cursor: pointer;
+}
+
+
+@media max-width(720px) {
+  .pdf--logo {
+    width: 15px;
+  }
+  .pdf--logo-extend {
+    width: 15px;
+  }
+}

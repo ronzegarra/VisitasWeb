@@ -1,0 +1,63 @@
+.transference--card--header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #00478b;
+  padding: 5px 15px;
+}
+
+.transference--card--header-title {
+  text-align: center;
+  font-size: 15px;
+  color:white;
+}
+
+.transference--card--header-title-number {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color:white;
+}
+
+.transference--card--body-title {
+  background: white;
+  color: #00478b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.transference--card--body {
+  background: white;
+  color: #696665;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.transference--card--col-8 {
+  float: left;
+  width: 59.666667%;
+  border: #f0f0f0;
+  border-style: solid;
+  /* border: 0px; */
+  border-right-width: 1px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  margin-right: 27px;
+}
+
+.transference--card--col-4 {
+  float: left;
+  width: 33.333333%
+}
+
+.transference--card--row {
+  border-bottom-color: #f0f0f0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 6px;
+}
+
+.transference--card--row:last-child {
+    border-bottom: 0px;
+}

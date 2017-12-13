@@ -1,0 +1,120 @@
+.messageInputBlock {
+  position: absolute;
+  bottom: 25px;
+  left: 360px;
+  font-size: 18px;
+  width: 15em;
+}
+
+.messageInputBlockLoanPayment{
+  top: 0px;
+}
+
+.messageInputBlock>.square {
+  padding: 12px;
+  width: 90%;
+  color: white;
+  border-radius: 0 6px 6px 6px;
+}
+
+.messageInputBlock>.square span{
+  font-weight: 500;
+}
+
+.messageInputBlock .fa {
+  margin-right: 8px;
+}
+
+
+.messageInputBlock.warning .arrow-left {
+  border-right:22px solid #e80102;
+}
+
+.messageInputBlock.warning>.square {
+  background: #e80102;
+  border: solid #e80102 1px;
+}
+
+.messageInputBlock.error .arrow-left {
+  border-right: 22px solid #e80102;
+}
+
+.messageInputBlock.error>.square {
+  background: #e80102;
+  border: solid #e80102 1px;
+}
+
+.messageInputBlock.success .arrow-left {
+  border-right: 22px solid #e80102;
+}
+
+.messageInputBlock.success>.square {
+  background: #e80102;
+  border: solid #e80102 1px;
+}
+
+.messageInputBlock.info .arrow-left {
+  border-right: 22px solid #e80102;
+}
+
+.messageInputBlock.info>.square {
+  background: #e80102;
+  border: solid #e80102 1px;
+}
+
+@media (max-width: 1120px) {
+  .messageInputBlock{
+    bottom:46px;
+    left: 350px;
+    font-size: 14px;
+    width: 14em;
+  }
+
+  .messageInputBlock.error .arrow-left {
+    border-right: 13px solid #e80102;
+  }
+
+  .messageInputBlock>.square {
+    padding: 8px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 880px) {
+  .messageInputBlock{
+    width: 100%;
+    bottom: 64px;
+    z-index: 100;
+    display: block;
+    position: static;
+    margin-left: initial;
+    margin-bottom: 20px;
+  }
+
+  .messageInputBlock>.square {
+    padding: 8px;
+    width: 100%;
+    float: none;
+    margin-top: 8px;
+    border-radius: 6px 6px 6px 6px;
+  }
+
+  .messageInputBlock > .arrow-left{
+    transform: rotateZ(90deg);
+    position: relative;
+    top: -18px;
+    left: 45px;
+    border-right: 20px solid #e80102 ;
+  }
+}
+
+@media (max-width: 720px) {
+  .messageInputBlock{
+    left: 340px;
+    font-size: 12px;
+  }
+
+  .messageInputBlock>.square {
+    padding: 7px;
+  }
+}

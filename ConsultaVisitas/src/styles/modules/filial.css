@@ -1,0 +1,118 @@
+.filial .filial-menu {
+  align-items: center;
+  margin-top: 15px;
+}
+
+.filial .filial-menu button {
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 57;
+  color: #444;
+  border-radius: 25px;
+  height: 35px;
+  background-color: #e3e7e7;
+  font-style: normal;
+  font-size: 1.1em;
+  font-weight: 600;
+  transform: none;
+  transition: none;
+  filter: none;
+  margin-left: 25px;
+}
+
+.filial .filial-menu button:hover {
+  background-color: #004988;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.filial .filial-menu button:focus {
+  outline: none;
+}
+
+.filial .filial-menu .active {
+  background-color: #004988;
+  color: #fff;
+}
+
+.filial-search--header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #00468b;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  font-size:18px;
+}
+
+.filial-search--title {
+  font-size: 1em;
+  margin: 0;
+}
+
+.filial-map {
+  min-width: 600px;
+}
+
+.filial-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filial-card {
+  width: 275px;
+  background-color: white;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  margin-bottom: 5px;
+}
+
+.filial-card--header {
+  position: relative;
+}
+
+.filial-card--title {
+  color: #004988;
+  font-size: 16px;
+}
+
+.filial-card--image {
+  height: 75px;
+  margin-top: 15px;
+}
+
+.filial-card--info {
+  color: #696767;
+}
+
+.filial-card--info label {
+  margin: 0;
+}
+
+.filial-card--button {
+  background-color: #004988;
+  color: #FFF;
+  padding: 6px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 10px;
+}
+
+.filial-card-busqueda .filial-card--button {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 85px;
+  height: 30px;
+}
+
+.filial .marker-info {
+  color: #696767;
+}
+
+@media (max-width: 525px) {
+  .filial-search--title{
+    font-size: 25px;
+  }
+}

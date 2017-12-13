@@ -1,0 +1,37 @@
+.authorizationBeneficiary--table{
+  border-spacing: 1px;
+  border-collapse: separate;
+  font-size: 1.2em;
+  display: table-row;
+  margin-bottom: 10px;
+}
+
+.authorizationBeneficiary--table--header{
+  color: white;
+  background-color: #00437a;
+}
+
+.authorizationBeneficiary--table--header>th{
+  padding: 10px 25px;
+}
+
+.authorizationBeneficiary--table--header>tr>th{
+  padding: 10px 25px;
+}
+
+.authorizationBeneficiary--table--row>td{
+  padding: 10px 15px;
+}
+
+tr.authorizationBeneficiary--table--row:nth-child(odd) {
+  background-color: white;
+}
+
+tr.authorizationBeneficiary--table--row:nth-child(even) {
+  background-color: #f3f3f4;
+}
+
+.authorizationBeneficiary--detail--table{
+  display: table;
+}
+

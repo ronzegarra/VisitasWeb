@@ -1,0 +1,29 @@
+.box--header{
+  text-align: center;
+  padding: 20px;
+  color: #00468b;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  font-size:18px;
+}
+
+.box--title{
+  font-size: 1em;
+  margin: 0;
+}
+
+.box--step{
+  font-size: 0.8em;
+  margin: 0;
+}
+
+@media (max-width: 525px) {
+  .box--title{
+    font-size: 25px;
+  }
+
+  .box--step{
+    font-size: 15px;
+  }
+}

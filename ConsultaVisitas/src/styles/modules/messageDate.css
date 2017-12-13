@@ -1,0 +1,50 @@
+.messageDate {
+  width: 0px;
+  height: 0px;
+  z-index: 100;
+  position: relative;
+}
+
+.messageDate > .square {
+  color: white;
+  border-radius: 0 6px 6px 6px;
+  padding: 8px;
+  width: 120px;
+  float: none;
+  margin-top: 8px;
+  border-radius: 6px 6px 6px 6px;
+  background-color: #e80102;
+  position: absolute;
+  top: -65px;
+}
+
+.messageDate > .arrow-left {
+  transform: rotateZ(-90deg);
+  position: absolute;
+  top: -23px;
+  left: 45px;
+  border-right: 20px solid #e80102;
+}
+
+@media (max-width: 525px) {
+  .messageDate {
+    left: 340px;
+    width: 100%;
+    font-size: 13px;
+    position: static;
+    height: initial;
+  }
+
+  .messageDate > .square {
+    width: 100%;
+    padding: 7px;
+    position: initial;
+  }
+
+  .messageDate > .arrow-left {
+    top: -12px;
+    left: 27px;
+    position: relative;
+    margin-bottom: -23px;
+  }
+}

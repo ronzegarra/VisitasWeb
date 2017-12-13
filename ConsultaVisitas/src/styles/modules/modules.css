@@ -1,0 +1,640 @@
+@import './login.css';
+@import './button.css';
+@import './url.css';
+@import './menu.css';
+@import './accountBoxList.css';
+@import './icon.css';
+@import './box.css';
+@import './switch.css';
+@import './image.css';
+@import './successBlock.css';
+@import './messageInput.css';
+@import './messageDate.css';
+@import './messageInputInline.css';
+@import './messageGeneral.css';
+@import './accountBoxDetail.css';
+@import './accountBoxDetailMobile.css';
+@import './accountBoxDetailTable.css';
+@import './boxLevelOne.css';
+@import './boxLevelTwo.css';
+@import './shame.css';
+@import './progressBar.css';
+@import './categoryImages.css';
+@import './beneficiaryTable.css';
+@import './searchTable.css';
+@import './authorizationBeneficiary.css';
+@import './pendingOperations.css';
+@import './input.css';
+@import './pendingOperations.css';
+@import './popup.css';
+@import './datePicker.css';
+@import './consolidatedPositionMenu.css';
+@import './userMenu.css';
+@import './fetching.css';
+@import './changePassword.css';
+@import './operationTable.css';
+@import './messageInputBlock.css';
+@import './dpfOperationTable.css';
+@import './filial.css';
+@import './paginationInfiniteScroll.css';
+@import './accountMovementsDetail.css';
+@import './excel.css';
+@import './pdf.css';
+@import './transference.css';
+
+.security-info {
+  color: rgb(168, 0, 65);
+}
+
+.question {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.header {
+  padding: 15px 15px 15px 15px;
+  position: relative;
+  color: #f8f8f8;
+  font-style: normal;
+  font-size: 1.7em;
+  font-weight: 600;
+  background: rgb(0, 73, 136);
+  overflow: hidden;
+  box-shadow: 0px 3px 1px #c0c0c0 ;
+}
+
+@media (max-width: 525px) {
+  .header {
+    padding: 20px 20px 20px 15px;
+    font-size: 2.2em;
+    font-weight: 300;
+  }
+}
+
+.header-white-logo {
+  position: relative;
+  width: 150px;
+  height: 125px;
+  margin: -75px 10px -80px 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: -25px;
+}
+
+@media (max-width: 720px) {
+  .header-white-logo {
+    position: absolute;
+    display: inline;
+    margin: -30px 0 0 5px;
+  }
+}
+@media (min-width: 720px) {
+  .header-white-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-text {
+    text-align: center;
+  }
+}
+
+.checkbook--form {
+  width: 300px;
+}
+
+.transference--form {
+  width: 300px;
+}
+
+.security--form {
+  width: 330px;
+  margin-top: 30px;
+  padding-bottom: 160px;
+}
+
+.security--questions--form--span {
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  font-size: 1.1em;
+  text-align: right;
+  right: 350px;
+  top: 5px;
+}
+
+.security--question--container {
+  padding-top: 5%;
+}
+
+.transference--message {
+  text-align: center;
+  font-size: 1.154em;
+}
+
+.form--control {
+  box-shadow: none;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 3px;
+  border: initial;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #e3e7e7;
+  color: #444;
+  transform: none;
+  transition: none;
+  filter: none;
+}
+
+select.form--control {
+  appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  background: #e3e7e7 url("../../images/dropdown.png") no-repeat 96%;
+  padding-right: 34px;
+}
+
+select.form--control::-ms-expand {
+  display: none;
+}
+
+.readonly {
+  background: #E8E8E8 !important;
+}
+
+.disabled--important {
+  background-color: #E8E8E8 !important;
+}
+
+.form--span {
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  font-size: 1.1em;
+  text-align: right;
+  right: 315px;
+  top: 9px;
+}
+
+@media (max-width: 525px) {
+  .form--span {
+    font-size: 15px;
+  }
+  .security--questions--form--span {
+    font-size: 15px;
+  }
+}
+
+.form--span--checkbook {
+  right: 314px;
+}
+
+.form--span--changePassword {
+  padding-right: 25px;
+}
+
+@media (max-width: 1120px) {
+  .form--span {
+    position: initial;
+    text-align: left;
+  }
+  .security--questions--form--span {
+    position: initial;
+    text-align: left;
+  }
+}
+
+.form-group {
+  position: relative;
+}
+
+.form--subtitle {
+  text-align: center;
+  color: #00468b;
+  font-size: large;
+  font-weight: 700;
+}
+
+.form--fixTop {
+  top: 0;
+}
+
+.form--security-subtitle {
+  text-align: center;
+  color: #00468b;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.transference--resume {
+  width: 450px;
+}
+
+.transference--resume--title {
+  font-size: 15px;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+.transference--resume--descriptor {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.transference--resume--item {
+  font-size: 15px;
+  display: block;
+  text-align: center;
+}
+
+.transference--resume--output {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.transference--resume--output-centered {
+  display: inline-block;
+}
+
+.transference--resume--icons {
+  margin: 0 17px;
+}
+
+.beneficiary--resume--output {
+  text-align: right;
+  margin-top: 28px;
+  margin-bottom: 5px;
+}
+
+.beneficiary--resume--icons {
+  margin: 0 5px;
+}
+
+.beneficiary--detail {
+  margin-left: 15px;
+}
+
+.beneficiary-check {
+  padding-top: 3px;
+}
+
+.beneficiary-times {
+  padding-top: 3px;
+}
+
+.beneficiary-trash {
+  padding-top: 3px;
+}
+
+.beneficiary-edit {
+  padding-top: 3px;
+}
+
+.beneficiary--header {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 73, 136);
+  font-size: 2em;
+}
+
+.beneficiary--user--header {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 73, 136);
+  font-size: 1.5em;
+}
+
+.beneficiary--row {
+  border-top: 1px solid gray;
+  padding: 8px 0;
+}
+
+.beneficiary--instructions {
+  padding: 8px;
+}
+
+.beneficiary--row > p {
+  margin: 0;
+}
+
+.beneficiary--row > p:nth-child(2) {
+  color: #ff0000;
+  font-size: 1.3em;
+}
+
+.beneficiary--body {
+  text-align: center;
+  font-weight: 600;
+  background-color: white;
+}
+
+.beneficiary--box--wrapper {
+  padding: 25px;
+}
+
+.beneficiary--button--portrait {
+  margin-top: 20px;
+}
+
+.pendingOperation--box--wrapper {
+  padding: 25px;
+}
+
+.text-user {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.last-connection {
+  margin: 0;
+  width: 140px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.header-user {
+  margin-right: 25px;
+  margin-top: 11px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 720px) {
+  .header-user {
+    margin-bottom: 10px;
+    margin-right: 0px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+  }
+}
+
+.header--user-information {
+  margin-left: 15px;
+}
+
+.header-logo {
+  margin-top: -7px;
+}
+
+.box--footer-message {
+  margin-top: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .box--footer-message {
+    width: 80%;
+  }
+}
+
+.hamburger {
+  color: white;
+  background-color: #004988;
+  padding: 8px 10px;
+  margin-top: -8px;
+  border: #004988 solid;
+  border-radius: 5px;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.sign-out {
+  position: relative;
+  top: -3px;
+}
+
+.bell {
+  position: relative;
+  top: -3px;
+}
+
+.fa-print {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fa-file-pdf-o {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fa-file-excel-o {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fa-file-text-o {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.cursor {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.content-container {
+  display: inline-block;
+}
+
+.search-fields {
+  margin-top: 10px;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 1px;
+}
+
+.search-group {
+  float: left;
+}
+
+@media (max-width: 525px) {
+  .search-group {
+    float: none;
+  }
+}
+
+.search--control {
+  box-shadow: none;
+  width: 130px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: initial;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: #e3e7e7;
+  color: #444;
+  transform: none;
+  transition: none;
+  filter: none;
+  height: 100%;
+}
+
+.search--control-big {
+  width: auto;
+}
+
+.search--control--operationTypes {
+  box-shadow: none;
+  width: 130px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: initial;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: #e3e7e7;
+  color: #444;
+  transform: none;
+  transition: none;
+  height: 100%;
+  filter: none;
+}
+
+.search--control--debitAccounts {
+  box-shadow: none;
+  width: 130px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: initial;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: #e3e7e7;
+  color: #444;
+  transform: none;
+  transition: none;
+  height: 100%;
+  filter: none;
+}
+
+.search--button {
+  background-color: #00478b;
+  color: white;
+  padding: 5px 35px;
+  border: 0;
+  font-weight: 600;
+  height: 100%;
+  width: 130px;
+}
+
+.radio--item {
+  display: block;
+}
+
+.hand {
+  cursor: pointer;
+  cursor: hand;
+}
+
+#toast-container > div {
+  padding: 15px 15px 15px 15px;
+}
+
+#toast-container > .toast-success,
+#toast-container > .toast-info,
+#toast-container > .toast-warning,
+#toast-container > .toast-error {
+  background-image: none !important;
+}
+
+#toast-container > div {
+  opacity: 0.9;
+}
+
+
+.login-container {
+  height: 100%;
+}
+.login-container > div {
+  min-height: 100%;
+}
+
+.login-container > div {
+  margin-bottom: -100px;
+}
+
+.footer-login {
+  height: 100px;
+}
+
+@media (max-height:800px) {
+  .login-container > div {
+    margin-bottom: -100px;
+    min-height: 100%;
+    height: initial;
+  }
+
+  .footer-login {
+    height: 100px;
+  }
+}
+
+.push {
+  height: 100px;
+}
+
+.login-container > footer {
+  position: static;
+}
+
+.sticky-c{
+  position:fixed;
+  top:0;
+  width: calc(100% - 182px);
+  z-index: 1;
+}
+
+@media (max-width: 720px){
+  .sticky-c{
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+  }
+}
+
+.push-message {
+  position: relative;
+  background-color: #be0f22;
+  margin: 15px;
+  padding: 15px;
+  color: white;
+  box-shadow: 0px 3px 1px #c0c0c0 ;
+  border-radius: 3px;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.push-message.error{
+  background-color: #be0f22;
+}
+
+.push-message.success{
+  background-color: #51A351;
+}
+
+.push-message.warning{
+  background-color: #F89406;
+}
+
+.exit-button {
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 13px);
+  background: none;
+  color:white;
+}

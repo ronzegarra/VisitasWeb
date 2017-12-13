@@ -1,0 +1,22 @@
+.image-user{
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: left top;
+  transform: none;
+  transition: none;
+  filter: none;
+}
+
+.footer-image{
+  max-height: 100px;
+  width: 100%;
+  min-height: 100px;
+}
+
+@media (max-height: 800px){
+  .footer-image{
+    max-height: 100px;
+  }
+}

@@ -1,0 +1,112 @@
+.messageInputInline {
+  position: absolute;
+  top: 0;
+  left: 360px;
+  font-size: 18px;
+  width: 15em;
+}
+
+.messageInputInline>.square {
+  padding: 12px;
+  width: 90%;
+  color: white;
+  border-radius: 0 6px 6px 6px;
+}
+
+.messageInputInline>.square span{
+  font-weight: 500;
+}
+
+.messageInputInline .fa {
+  margin-right: 8px;
+}
+
+
+.messageInputInline.warning .arrow-left {
+  border-right:22px solid #e80102;
+}
+
+.messageInputInline.warning>.square {
+  background: #e80102;
+  border: solid #e80102 1px;
+}
+
+.messageInputInline.error .arrow-left {
+  border-right: 22px solid #e80102;
+}
+
+.messageInputInline.error>.square {
+  background: #e80102;
+  border: solid #e80102 1px;
+}
+
+.messageInputInline.success .arrow-left {
+  border-right: 22px solid #e80102;
+}
+
+.messageInputInline.success>.square {
+  background: #e80102;
+  border: solid #e80102 1px;
+}
+
+.messageInputInline.info .arrow-left {
+  border-right: 22px solid #e80102;
+}
+
+.messageInputInline.info>.square {
+  background: #e80102;
+  border: solid #e80102 1px;
+}
+
+@media (max-width: 1120px) {
+  .messageInputInline{
+    top:10px;
+    left: 350px;
+    font-size: 14px;
+    width: 14em;
+  }
+
+  .messageInputInline.error .arrow-left {
+    border-right: 13px solid #e80102;
+  }
+
+  .messageInputInline>.square {
+    padding: 8px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 880px) {
+  .messageInputInline{
+    width: 100%;
+    z-index: 100;
+    position: static;
+  }
+
+  .messageInputInline>.square {
+    padding: 8px;
+    width: 100%;
+    float: none;
+    margin-top: 8px;
+    border-radius: 6px 6px 6px 6px;
+  }
+
+  .messageInputInline > .arrow-left{
+    transform: rotateZ(90deg);
+    position: relative;
+    top: -18px;
+    left: 45px;
+    border-right: 20px solid #e80102 ;
+  }
+}
+
+@media (max-width: 720px) {
+  .messageInputInline{
+    left: 340px;
+    font-size: 12px;
+  }
+
+  .messageInputInline>.square {
+    padding: 7px;
+  }
+}

@@ -1,0 +1,165 @@
+.pendingOperationTable{
+  border-spacing: 1px;
+  border-collapse: separate;
+  font-size: 1.2em;
+  display: table-row;
+  margin-bottom: 10px;
+}
+
+.pendingOperationTable--header{
+  color: white;
+  background-color: #00437a;
+}
+
+.pendingOperationTable--header>th{
+  padding: 10px 25px;
+}
+
+.pendingOperationTable--header>tr>th{
+  padding: 10px 25px;
+}
+
+.pendingOperationTable--row>td{
+  padding: 10px 15px;
+}
+
+tr.pendingOperationTable--row:nth-child(odd) {
+  background-color: white;
+}
+
+tr.pendingOperationTable--row:nth-child(even) {
+  background-color: #f3f3f4;
+}
+
+.pendingOperationTable--detail{
+  color: #005889;
+  padding: 2px 15px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.pendingOperationTable--actions{
+  color: #005889;
+  padding: 0 3px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.pendingOperationDetail--box--wrapper{
+  display: table;
+  min-width: 530px;
+  margin-top: 45px;
+}
+
+.pendingOperationDetail--header{
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: #00437a;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.pendingOperationDetail--actionButtons{
+  font-weight: 500;
+ }
+
+.pendingOperation--portrait-container{
+  width: 70%;
+  max-width: 520px;
+  min-width: 300px;
+  margin-top: 30px;
+}
+
+.pendingOperation--comboBox-item{
+  font-size: 1.2em;
+  padding: 16px;
+  margin: -1px 10px;
+  border-bottom: 1px solid gray;
+}
+
+.pendingOperation--comboBox-item:hover{
+  cursor: pointer;
+  cursor: hand;
+  border-color: rgba(0, 73, 136, 0.7);
+}
+
+.pendingOperation--comboBox-item-wrapper:hover{
+  background-color: rgba(0, 73, 136, 0.7);
+}
+
+.pendingOperation--button-confirm{
+  width: 99%;
+  margin-top: 13px;
+  height: 41px;
+  border: rgb(0, 73, 136) solid;
+  background-color: #00437a;
+  font-style: normal;
+  font-size: 1.231em;
+  color: rgb(255, 255, 255);
+}
+
+.pendingOperation--button-confirm:hover{
+  background-color: #a80041;
+  border-color: #a80041;
+}
+
+.pendingOperation--form--search-input{
+  padding: 2px;
+  height: 34px;
+  width: 98.8%;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: none;
+  border: 1px solid rgb(0, 73, 136);
+  margin: 3px;
+  margin-left:0px;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.pendingOperation--search-title{
+  cursor: pointer;
+  cursor: hand;
+  width: 100%;
+  text-align: center;
+  background-color: #004578;
+  color: white;
+  padding: 8px;
+  font-size: 1.45em;
+  border-radius: 3px;
+}
+
+.pendingOperation--search-form{
+  margin-top: 10px;
+  width: 101%;
+}
+
+.pendingOperation--container{
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+
+.pendingOperationsDetail--beneficiary{
+  margin-top: 30px;
+}
+
+.pendingOperation--body{
+  text-align: center;
+  font-weight: 600;
+}
+
+.pendingOperation--detailSeparation{
+  height: 15px;
+}
+
+.pendingOperation--body-portrait{
+  background-color: #ffffff;
+}
+
+.wrapperPendingOperation {
+  display: inline-block;
+  max-width: 100%;
+}

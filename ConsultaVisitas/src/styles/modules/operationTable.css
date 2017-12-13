@@ -1,0 +1,163 @@
+.operationTable{
+  border-spacing: 0 2px;
+  border-collapse: separate;
+  font-size: 13px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.operationTable-container{
+  margin-bottom: 20px;
+}
+
+.icon-arrow {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #00437a;
+  color: white;
+  cursor: pointer;
+}
+
+.operationTable--header{
+  color: white;
+  background-color: #00437a;
+}
+
+.operationTable--text{
+  text-align: center;
+}
+
+.operationTable--text--oneline{
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.operationTable--text--subtitle{
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.operationTable--text--content{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.operationTable--column--account{
+  color: white;
+  background-color: #00437a;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  width: 240px;
+	padding: 0px 10px;
+}
+
+.operationTable--column--import{
+  width: 240px;
+}
+
+.operationTable--column--money{
+  width: 240px;
+}
+
+.operationTable--column--like{
+  width: 200px;
+  padding-right: 30px;
+  text-align: right;
+}
+
+.operationTable--column--progress{
+  width: 100px;
+}
+
+.operationTable--column--plus{
+  color: white;
+  background-color: #00437a;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.operationTable--wrapper{
+  display: inline-block;
+}
+
+.operationTable--column--50{
+  width: 50%;
+}
+.operationTable--column--40{
+  width: 40%;
+}
+
+tr.operationTable--row {
+  background-color: white;
+}
+
+.operationTable--button{
+  position: relative;
+  height: 21px;
+  /*border: 1px solid rgb(0, 0, 0);*/
+  border-radius: 3px;
+  background-color: #004988;
+  color: white;
+  font-size: 0.823em;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+.operationTable--footer{
+}
+
+.operationTable--status{
+  color: #00437a;
+}
+
+.operationTable--pagination{
+  margin-left: 115px;
+}
+
+.operationTable--pagination>i{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.operationTable--start{
+  margin-right: 4px;
+  color: white;
+  border-radius: 25px;
+  background-color: #005889;
+  padding: 4px 6px 4px 4px;
+}
+
+.operationTable--previous{
+  margin-right: 4px;
+  color: white;
+  border-radius: 25px;
+  background-color: #005889;
+  padding: 4px 4px 4px 6px;
+  transform: scaleX(-1);
+}
+
+.operationTable--next{
+  margin-right: 4px;
+  color: white;
+  border-radius: 25px;
+  background-color: #005889;
+  padding: 4px 4px 4px 6px;
+}
+
+.operationTable--end{
+  margin-right: 4px;
+  color: white;
+  border-radius: 25px;
+  background-color: #005889;
+  padding: 4px 4px 4px 6px;
+}
+
+
+@media (max-width: 1176px){
+  .operationTable-container{
+    width: 100%;
+  }
+}

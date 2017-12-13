@@ -1,0 +1,143 @@
+@import './steps.css';
+
+.is-not-visible{
+  display: none;
+}
+
+.is-hidden{
+  visibility: hidden;
+}
+
+.is-current-state-button{
+  background-color: #004988;
+  color: #fff;
+}
+
+.is-border-finished-icon{
+  border-color: #ca003f;
+}
+
+.is-border-current-icon{
+  border-color:#ca003f;
+}
+
+.is-border-future-icon{
+  border-color: #a8a8a8;
+}
+
+.is-finished-step{
+  color: #00468b;
+}
+
+.is-current-step{
+  color: #ca003f;
+}
+
+.fullwidth{
+  width: 100% !important;
+}
+
+.fullheight{
+  height: 100% !important;
+}
+
+.animated {
+  transition: all 0.5s linear;
+}
+
+.animated-after {
+  transition: all 0.5s ease;
+  transition-delay: 0.5s;
+}
+
+.no-animation {
+  transition: none;
+}
+
+.is-future-step{
+  color: #a8a8a8;
+}
+
+.is-pushed-right{
+  margin-right: -182px;
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+@media (min-width: 720px){
+  .is-pushed-right{
+    margin-right: 0;
+    transition: 1s;
+    -webkit-transition: 1s;
+  }
+}
+
+.is-not-pushed-right{
+  margin-right: 0;
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+.is-hidden-animated{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.not-toggled{
+  max-height: 0;
+}
+
+.is-show-animated{
+  opacity: 1;
+  visibility: visible;
+  max-height: 10000px;
+  transition: max-height 1s;
+}
+
+@media (max-width: 525px){
+  .is-hidden-animated{
+    max-height: 0;
+    opacity: 1;
+    visibility: hidden;
+  }
+
+  .is-hidden-not-animated{
+    max-height: 0;
+    opacity: 1;
+    visibility: hidden;
+    transition: none;
+  }
+
+  .is-show-animated{
+    max-height: 10000px;
+    transition: 1s;
+  }
+}
+
+.is-selected-item{
+  background: rgba(197, 0, 64, 0.7);
+  padding-left: 35px;
+  text-decoration: none;
+  color: white;
+  border-left: aliceblue;
+  border-left-style: solid;
+  border-left-width: 3px;
+  transition: padding-left 0.6s ease;
+}
+
+.is-selected-item:visited{
+  color: white;
+}
+
+.is-selected-item:focus{
+  text-decoration: none;
+  color: white;
+}
+
+.li-active{
+  background-color: green;
+}
+
+.is-selected-image{
+  opacity: 1.0 !important;
+}

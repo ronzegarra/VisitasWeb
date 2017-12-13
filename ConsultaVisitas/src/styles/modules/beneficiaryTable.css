@@ -1,0 +1,161 @@
+.beneficiary-container{
+  margin-top: 45px;
+  display: table;
+}
+
+/* table portrait */
+
+.fa-search-beneficiaries{
+  position: relative;
+  left: -30px;
+  top: 3px;
+  color: #828282;
+}
+
+.beneficiaryTablePortrait{
+  width: 100%;
+  position: relative;
+}
+
+.beneficiaryTablePortrait--body{
+  background-color: white;
+}
+
+.beneficiaryTablePortrait p{
+  margin: 0;
+}
+
+.beneficiaryTablePortrait--container{
+  margin:5px;
+}
+
+.beneficiaryTablePortrait--title{
+  background-color: #004578;
+  color: white;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding: 4px;
+}
+
+.beneficiaryTablePortrait--description{
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.beneficiaryTablePortrait--date{
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.beneficiaryTablePortrait--concept{
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.beneficiaryTablePortrait--row{
+  border-top: 1px solid gray;
+  padding: 5px;
+}
+
+.beneficiaryTablePortrait--amount{
+  text-align: right;
+}
+
+.beneficiaryTablePortrait--balance{
+  font-size: 0.9em;
+  font-weight: 500;
+  width: 80px;
+  text-align: center;
+}
+
+.beneficiaryTablePortrait--detail{
+  color: white;
+  width: 40px;
+  text-align: center;
+  background-color: #00437a;
+  padding: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.beneficiaryTablePortrait--operation{
+  font-size: 0.9em;
+}
+
+/*beneficiaryDetail*/
+
+.beneficiaryDetail--box--wrapper{
+  display: table;
+  min-width: 530px;
+  margin-top: 45px;
+}
+
+.beneficiaryDetail--header{
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #00437a;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.beneficiaryDetail--actionButtons{
+  font-weight: 500;
+}
+
+.beneficiaryDetailTable{
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.beneficiaryDetailTable--row>td{
+  padding: 12px 30px;
+}
+
+.beneficiaryDetailTable td:nth-child(1){
+  text-align: left;
+}
+
+.beneficiaryDetailTable td:nth-child(2){
+  text-align: center;
+}
+
+tr.beneficiaryDetailTable--row:nth-child(odd) {
+  background-color: #fff;
+}
+
+tr.beneficiaryDetailTable--row:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.beneficiaryTablePortrait--row--typeOperation{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.beneficiaryTablePortrait--row--amount{
+  font-size: 1.7em;
+  color: #00437a;
+  font-weight: bold;
+}
+
+.beneficiaryTable--row--footerTitle{
+  color: #00437a;
+  font-weight: 700;
+}
+
+.beneficiaryTable--row--Title{
+  font-weight: bold;
+}
+
+.beneficiaryTable--row--subTitle{
+  font-weight: 700;
+}

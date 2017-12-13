@@ -1,0 +1,89 @@
+.messageInput {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  font-size: 18px;
+  width: 15em;
+}
+
+.messageInput > .square {
+  padding: 12px;
+  width: 90%;
+  color: white;
+  border-radius: 0 6px 6px 6px;
+}
+
+.messageInput > .square span {
+  font-weight: 500;
+}
+
+.messageInput .fa {
+  margin-right: 8px;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+@media (max-width: 880px) {
+  .messageInput {
+    left: 310px;
+    font-size: 14px;
+    width: 14em;
+  }
+
+  .messageInput > .square {
+    padding: 8px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .messageInput {
+    left: 290px;
+    font-size: 12px;
+  }
+
+  .messageInput > .square {
+    padding: 7px;
+    width: 80%;
+  }
+}
+.messageInput.warning .arrow-left {
+  border-right: 22px solid #ffa500;
+}
+
+.messageInput.warning > .square {
+  background: #ffa500;
+  border: solid #ffa500 1px;
+}
+
+.messageInput.error .arrow-left {
+  border-right: 22px solid #c70404;
+}
+
+.messageInput.error > .square {
+  background: #c70404;
+  border: solid #c70404 1px;
+}
+
+.messageInput.success .arrow-left {
+  border-right: 22px solid #00b233;
+}
+
+.messageInput.success > .square {
+  background: #00b233;
+  border: solid #00b233 1px;
+}
+
+.messageInput.info .arrow-left {
+  border-right: 22px solid #00437a;
+}
+
+.messageInput.info > .square {
+  background: #00437a;
+  border: solid #00437a 1px;
+}

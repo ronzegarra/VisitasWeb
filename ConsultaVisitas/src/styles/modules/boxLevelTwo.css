@@ -1,0 +1,263 @@
+.boxLevelTwo {
+  width: 225px;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  margin-right: 22px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 50px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #d4d4d4 ;
+}
+
+@media (min-width: 720px){
+
+  .boxLevelTwo:hover {
+    transition: transform 0.3s ease;
+    transform: translateY(-4px);
+  }
+
+  .boxLevelTwo--opacity {
+    transition: opacity 0.5s ease;
+    opacity: 0.5;
+  }
+}
+
+.boxLevelTwo-top{
+  padding: 0px 15px;
+
+  min-height: 70px;
+}
+
+.boxLevelTwo-label {
+  color: #004578;
+}
+
+.boxLevelTwo-bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0px 15px;
+  background-color: #004578;
+  color:white;
+  min-height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+@media (max-width: 525px){
+  .boxLevelTwo{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.boxLevelTwo--border{
+
+}
+
+.boxLevelTwo--border-active{
+
+}
+
+.boxLevelTwo--title {
+  width: 125px;
+  text-shadow: none;
+  font-style: inherit;
+  font-weight: 700;
+  color: inherit;
+  font-size: 1.231em;
+  padding: 13px 0px;
+
+}
+
+.boxLevelTwo--amount {
+
+  font-size: 25px;
+  font-weight: 350;
+  padding: 8px 0px;
+}
+
+.boxLevelTwo--description {
+  font-weight: normal;
+}
+
+.boxLevelTwo--button {
+  border-radius: 3px;
+  background-color: #004988;
+  color: white;
+  position: relative;
+  width: 57px;
+  height: 23px;
+  margin: 0;
+  font-size: 0.923em;
+  font-weight: 600;
+  top: 10px;
+}
+
+.boxLevelTwo-dpf {
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  margin-right: 22px;
+  margin-bottom: 20px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 1px #d4d4d4;
+}
+
+@media (max-width: 525px){
+  .boxLevelTwo-dpf{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.boxLevelTwo-dpf--title {
+  float: left;
+  width: 165px;
+  text-shadow: none;
+  font-style: inherit;
+  font-weight: 700.boxLevelTwo-prestamo--button;
+  color: inherit;
+  font-size: 1.231em;
+  margin: 0px 0px 20px 0px;
+  min-height: 67px;
+}
+
+.boxLevelTwo-dpf--amount {
+  clear: left;
+  margin: 0px 0 20px 0px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.boxLevelTwo-dpf--amount > span{
+  font-weight:700;
+}
+
+.boxLevelTwo-dpf--dates {
+  clear: left;
+  margin: 0px 0px 12px 0px;
+  font-size: 12px;
+  font-weight: normal;
+  padding-bottom: 15px
+}
+
+.boxLevelTwo-dpf--progressbar{
+  clear: left;
+  margin: 0px 0px 0px 0px;
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 10px
+}
+
+.boxLevelTwo-dpf--dates > div > span{
+  font-weight:700;
+}
+
+.boxLevelTwo-dpf--date {
+  clear: left;
+  margin: 0px 0px 0 0px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.boxLevelTwo-dpf--button {
+  position: relative;
+  width: 57px;
+  height: 23px;
+  margin: 0;
+  border-radius: 3px;
+  background-color: #004988;
+  font-size: 0.923em;
+  font-weight: 600;
+  color: white;
+}
+
+.boxLevelTwo-prestamo {
+  width: 270px;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  margin-right: 22px;
+  margin-bottom: 20px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 1px #d4d4d4;
+}
+
+.react-datepicker__input-container {
+  height: 100%;
+}
+
+@media (max-width: 525px){
+  .boxLevelTwo-prestamo{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.boxLevelTwo-prestamo--title {
+  float: left;
+  width: 165px;
+  text-shadow: none;
+  font-style: inherit;
+  font-weight: 700;
+  color: inherit;
+  font-size: 1.231em;
+  margin: 0px 0px 5px 0px;
+  min-height: 67px;
+}
+
+.boxLevelTwo-prestamo--product {
+  clear: left;
+  margin: 0px 0 0px 0px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.boxLevelTwo-prestamo--product > span {
+  font-weight: 700;
+}
+
+.boxLevelTwo-prestamo--amount {
+  clear: left;
+  margin: 0px 0 15px 0px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.boxLevelTwo-prestamo--button {
+  border-radius: 3px;
+  background-color: #004988;
+  color: white;
+  position: relative;
+  width: 57px;
+  height: 23px;
+  margin: 0;
+  font-size: 0.923em;
+  font-weight: 600;
+}
+
+.boxLevelTwo-prestamo--date {
+  clear: left;
+  margin: 0px 0px 0 0px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.boxLevelTwo-prestamo--progressbar{
+  clear: left;
+  margin: 0px 0px 0px 0px;
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 10px
+}
+
+.boxLevelTwo--button--wrapper{
+  position: relative;
+}

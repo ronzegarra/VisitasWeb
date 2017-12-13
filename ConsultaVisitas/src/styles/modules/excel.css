@@ -1,0 +1,25 @@
+.excel-icon{
+  margin-bottom: 3px;
+  color: #00437a;
+  width: 100%;
+  cursor: pointer;
+}
+
+.excel--logo {
+   width: 100%;
+   color: #00437a;
+   height: 30px;
+   cursor: pointer;
+}
+
+.icon--excel {
+  display: inline-block;
+  max-width: 28px;
+  margin-left: 5px;
+}
+
+@media max-width(720px) {
+  .excel-icon{
+    width: 15px;
+  }
+}

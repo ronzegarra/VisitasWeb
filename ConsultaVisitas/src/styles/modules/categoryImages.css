@@ -1,0 +1,148 @@
+.categoryImages{
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.categoryImages--container{
+  padding-top: 2%;
+}
+
+.categoryImages--title{
+  width: 100%;
+  text-align: center;
+  background-color: #004578;
+  color: white;
+  padding: 8px;
+  font-weight: 700;
+  font-size: 1.077em;
+}
+
+@media (min-width: 525px){
+  .categoryImages--title{
+    margin-bottom: 10px;
+    padding: 14px;
+  }
+  .categoryImages--header{
+    text-align: center;
+    color: #004578;
+    font-weight: 700;
+    font-size: 2em;
+    padding-top: 20px;
+  }
+}
+
+.categoryImages--row > img{
+  width: 33.33%;
+  background-color: #3e3e3d;
+  border: 1px solid white;
+  opacity: 0.5;
+}
+
+@media (min-width: 525px){
+  .categoryImages--images{
+    width: 600px;
+  }
+  .categoryImages--categories{
+    width: 200px;
+    margin-top: 25px;
+  }
+}
+
+.categoryImages--row > img:hover{
+  opacity: 1.0;
+}
+
+.categoryImages-is-selected{
+  background-color: #b8083e;
+  opacity: 1.0;
+}
+
+@media (min-width: 525px){
+  .categoryImages--row {
+    margin-left: 40px;
+  }
+
+  .categoryImages--row > img{
+    margin: 20px;
+    margin-top: 25px;
+    width: 140px;
+    opacity: 0.5;
+  }
+}
+
+.categoryImages--body {
+  transition: max-height 1s;
+  overflow: hidden;
+}
+
+.categoryImages--background{
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.categoryImages--button{
+  width: 200px;
+  background-color: #004578;
+  font-style: normal;
+  font-size: 1.077em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  padding: 14px;
+  border: 0px #004578;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.categoryImages--memorable{
+  margin-top: 15px;
+  width: 200px;
+}
+
+.categoryImages--popup{
+  position: fixed;
+  background-color: white;
+  width: 75%;
+  height: 180px;
+  top: 30%;
+  left: 12.5%;
+  min-width: 250px;
+  z-index: 130;
+}
+
+.categoryImages--popup .close{
+  color: white;
+  position: relative;
+  background-color: #004578;
+  padding: 3px 6px;
+  font-size: 1.6em;
+  border: white solid 3px;
+  border-radius: 50%;
+  left: 18px;
+  bottom: 18px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.categoryImages--popup .content{
+  padding: 30px;
+}
+
+.categoryImages--popup .button{
+  margin-top: 30px;
+  background-color: #004578;
+}
+
+.categoryImages--popup .input{
+  margin-top: 5px;
+}
+
+.categoryImages--popup--modal{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0,0,0,0.6);
+  top: 0;
+  left: 0;
+  z-index: 120;
+}
